@@ -28,12 +28,13 @@ namespace Passing_value_from_oneFromsTo_Another
         {
             // this assign value of forms one labels to another forms label 
             label2.Text = Form1.text1;
-            label2.Visible = true;
-
+      
             label3.Text = Form1.text2;
-            label3.Visible = true;
-
+          
             label4.Text = Form1.text3;
+
+            label2.Visible = true;
+            label3.Visible = true;
             label4.Visible = true;
 
         }

@@ -70,6 +70,7 @@ namespace Passing_value_from_oneFromsTo_Another
             {
                 this.BackColor = System.Drawing.Color.Orange;
             }
+            
             else
             {
                 MessageBox.Show("You have not click any button ");
