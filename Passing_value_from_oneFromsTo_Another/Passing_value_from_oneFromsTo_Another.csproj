@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="checkbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkbox.Designer.cs">
+      <DependentUpon>checkbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="RadioBotton.Designer.cs">
       <DependentUpon>RadioBotton.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="checkbox.resx">
+      <DependentUpon>checkbox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

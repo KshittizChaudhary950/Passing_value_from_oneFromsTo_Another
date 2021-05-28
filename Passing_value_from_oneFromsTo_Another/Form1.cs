@@ -77,5 +77,12 @@ namespace Passing_value_from_oneFromsTo_Another
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            checkbox C1 = new checkbox();
+            C1.ShowDialog();
+        }
     }
 }
