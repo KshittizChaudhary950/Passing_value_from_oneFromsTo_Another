@@ -38,6 +38,12 @@ namespace Passing_value_from_oneFromsTo_Another
             this.LasttextBox = new System.Windows.Forms.TextBox();
             this.Sendbutton = new System.Windows.Forms.Button();
             this.Radiobutton = new System.Windows.Forms.Button();
+            this.RedradioButton = new System.Windows.Forms.RadioButton();
+            this.GreenradioButton = new System.Windows.Forms.RadioButton();
+            this.BlueradioButton = new System.Windows.Forms.RadioButton();
+            this.YellowradioButton = new System.Windows.Forms.RadioButton();
+            this.OrangeradioButton = new System.Windows.Forms.RadioButton();
+            this.ChangeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -126,11 +132,88 @@ namespace Passing_value_from_oneFromsTo_Another
             this.Radiobutton.UseVisualStyleBackColor = true;
             this.Radiobutton.Click += new System.EventHandler(this.Radiobutton_Click);
             // 
+            // RedradioButton
+            // 
+            this.RedradioButton.AutoSize = true;
+            this.RedradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RedradioButton.Location = new System.Drawing.Point(304, 87);
+            this.RedradioButton.Name = "RedradioButton";
+            this.RedradioButton.Size = new System.Drawing.Size(55, 20);
+            this.RedradioButton.TabIndex = 8;
+            this.RedradioButton.TabStop = true;
+            this.RedradioButton.Text = "Red";
+            this.RedradioButton.UseVisualStyleBackColor = true;
+            // 
+            // GreenradioButton
+            // 
+            this.GreenradioButton.AutoSize = true;
+            this.GreenradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GreenradioButton.Location = new System.Drawing.Point(304, 126);
+            this.GreenradioButton.Name = "GreenradioButton";
+            this.GreenradioButton.Size = new System.Drawing.Size(68, 20);
+            this.GreenradioButton.TabIndex = 8;
+            this.GreenradioButton.TabStop = true;
+            this.GreenradioButton.Text = "Green";
+            this.GreenradioButton.UseVisualStyleBackColor = true;
+            // 
+            // BlueradioButton
+            // 
+            this.BlueradioButton.AutoSize = true;
+            this.BlueradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BlueradioButton.Location = new System.Drawing.Point(304, 172);
+            this.BlueradioButton.Name = "BlueradioButton";
+            this.BlueradioButton.Size = new System.Drawing.Size(57, 20);
+            this.BlueradioButton.TabIndex = 8;
+            this.BlueradioButton.TabStop = true;
+            this.BlueradioButton.Text = "Blue";
+            this.BlueradioButton.UseVisualStyleBackColor = true;
+            // 
+            // YellowradioButton
+            // 
+            this.YellowradioButton.AutoSize = true;
+            this.YellowradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YellowradioButton.Location = new System.Drawing.Point(300, 220);
+            this.YellowradioButton.Name = "YellowradioButton";
+            this.YellowradioButton.Size = new System.Drawing.Size(72, 20);
+            this.YellowradioButton.TabIndex = 8;
+            this.YellowradioButton.TabStop = true;
+            this.YellowradioButton.Text = "Yellow";
+            this.YellowradioButton.UseVisualStyleBackColor = true;
+            // 
+            // OrangeradioButton
+            // 
+            this.OrangeradioButton.AutoSize = true;
+            this.OrangeradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OrangeradioButton.Location = new System.Drawing.Point(300, 260);
+            this.OrangeradioButton.Name = "OrangeradioButton";
+            this.OrangeradioButton.Size = new System.Drawing.Size(77, 20);
+            this.OrangeradioButton.TabIndex = 8;
+            this.OrangeradioButton.TabStop = true;
+            this.OrangeradioButton.Text = "Orange";
+            this.OrangeradioButton.UseVisualStyleBackColor = true;
+            // 
+            // ChangeBtn
+            // 
+            this.ChangeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChangeBtn.Location = new System.Drawing.Point(45, 306);
+            this.ChangeBtn.Name = "ChangeBtn";
+            this.ChangeBtn.Size = new System.Drawing.Size(316, 37);
+            this.ChangeBtn.TabIndex = 9;
+            this.ChangeBtn.Text = "Change colore of forms";
+            this.ChangeBtn.UseVisualStyleBackColor = true;
+            this.ChangeBtn.Click += new System.EventHandler(this.ChangeBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 309);
+            this.ClientSize = new System.Drawing.Size(388, 370);
+            this.Controls.Add(this.ChangeBtn);
+            this.Controls.Add(this.OrangeradioButton);
+            this.Controls.Add(this.YellowradioButton);
+            this.Controls.Add(this.BlueradioButton);
+            this.Controls.Add(this.GreenradioButton);
+            this.Controls.Add(this.RedradioButton);
             this.Controls.Add(this.Radiobutton);
             this.Controls.Add(this.Sendbutton);
             this.Controls.Add(this.LasttextBox);
@@ -159,6 +242,12 @@ namespace Passing_value_from_oneFromsTo_Another
         private System.Windows.Forms.TextBox LasttextBox;
         private System.Windows.Forms.Button Sendbutton;
         private System.Windows.Forms.Button Radiobutton;
+        private System.Windows.Forms.RadioButton RedradioButton;
+        private System.Windows.Forms.RadioButton GreenradioButton;
+        private System.Windows.Forms.RadioButton BlueradioButton;
+        private System.Windows.Forms.RadioButton YellowradioButton;
+        private System.Windows.Forms.RadioButton OrangeradioButton;
+        private System.Windows.Forms.Button ChangeBtn;
     }
 }
 

@@ -47,5 +47,34 @@ namespace Passing_value_from_oneFromsTo_Another
             RadioBotton f3 = new RadioBotton();
             f3.ShowDialog();
         }
+
+        private void ChangeBtn_Click(object sender, EventArgs e)
+        {
+            if(RedradioButton.Checked==true)
+            {
+                this.BackColor = System.Drawing.Color.Red;
+            }
+            else if(GreenradioButton.Checked==true)
+            {
+                this.BackColor = System.Drawing.Color.Green;
+            }
+            else if (BlueradioButton.Checked == true)
+            {
+                this.BackColor = System.Drawing.Color.Blue;
+            }
+            else if (YellowradioButton.Checked == true)
+            {
+                this.BackColor = System.Drawing.Color.Yellow;
+            }
+            else if (OrangeradioButton.Checked == true)
+            {
+                this.BackColor = System.Drawing.Color.Orange;
+            }
+            else
+            {
+                MessageBox.Show("You have not click any button ");
+            }
+
+        }
     }
 }
