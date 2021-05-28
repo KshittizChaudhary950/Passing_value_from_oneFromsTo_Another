@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passing_value_from_oneFromsTo_Another", "Passing_value_from_oneFromsTo_Another\Passing_value_from_oneFromsTo_Another.csproj", "{C938EA12-1F8E-4749-9E3E-19E5B9356DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C938EA12-1F8E-4749-9E3E-19E5B9356DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C938EA12-1F8E-4749-9E3E-19E5B9356DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C938EA12-1F8E-4749-9E3E-19E5B9356DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C938EA12-1F8E-4749-9E3E-19E5B9356DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630D9850-FFA9-4847-95A6-7CB0AD4E4B07}
+	EndGlobalSection
+EndGlobal
