@@ -34,6 +34,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,11 +91,23 @@ namespace Passing_value_from_oneFromsTo_Another
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Backbtn
+            // 
+            this.Backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Backbtn.Location = new System.Drawing.Point(12, 230);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(75, 31);
+            this.Backbtn.TabIndex = 7;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
+            // 
             // NextForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(318, 273);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -116,5 +129,6 @@ namespace Passing_value_from_oneFromsTo_Another
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Backbtn;
     }
 }
