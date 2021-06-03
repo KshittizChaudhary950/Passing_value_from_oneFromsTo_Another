@@ -26,12 +26,12 @@ namespace Passing_value_from_oneFromsTo_Another
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // this assign value of forms one labels to another forms label 
-            //label2.Text = Form1.text1;
-      
-            //label3.Text = Form1.text2;
-          
-            //label4.Text = Form1.text3;
+            //this assign value of forms one labels to another forms label
+            label2.Text = Form1.text1;
+
+            label3.Text = Form1.text2;
+
+            label4.Text = Form1.text3;
 
             label2.Visible = true;
             label3.Visible = true;
