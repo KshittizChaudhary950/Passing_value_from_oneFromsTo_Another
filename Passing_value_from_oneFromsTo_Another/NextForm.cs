@@ -19,9 +19,9 @@ namespace Passing_value_from_oneFromsTo_Another
 
         private void NextForm_Load(object sender, EventArgs e)
         {
-            //label2.Text = Form1.text1;
-            //label3.Text = Form1.text2;
-            //label4.Text = Form1.text3;
+            //label2.text = form1.text1;
+            //label3.text = form1.text2;
+            //label4.text = form1.text3;
         }
 
         private void button1_Click(object sender, EventArgs e)
