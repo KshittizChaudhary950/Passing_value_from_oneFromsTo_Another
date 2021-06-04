@@ -20,6 +20,17 @@ namespace Passing_value_from_oneFromsTo_Another
         private void Checklist_Load(object sender, EventArgs e)
         {
 
+            //multiple check box is added in checkList 
+
+        }
+
+        private void getbtn_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            foreach(string s in checkedListBox1.CheckedItems)
+            {
+                listBox1.Items.Add(s);
+            }
         }
     }
 }
