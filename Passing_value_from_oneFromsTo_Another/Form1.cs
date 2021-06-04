@@ -84,5 +84,13 @@ namespace Passing_value_from_oneFromsTo_Another
             checkbox C1 = new checkbox();
             C1.ShowDialog();
         }
+
+        private void Checklistbtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Checklist ch = new Checklist();
+            ch.ShowDialog();
+            
+        }
     }
 }

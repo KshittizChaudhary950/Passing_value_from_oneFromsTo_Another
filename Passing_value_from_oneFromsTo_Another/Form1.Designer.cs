@@ -45,6 +45,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.OrangeradioButton = new System.Windows.Forms.RadioButton();
             this.ChangeBtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.Checklistbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +74,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.FirsttextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirsttextBox.Location = new System.Drawing.Point(288, 107);
-            this.FirsttextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FirsttextBox.Margin = new System.Windows.Forms.Padding(4);
             this.FirsttextBox.Name = "FirsttextBox";
             this.FirsttextBox.Size = new System.Drawing.Size(148, 22);
             this.FirsttextBox.TabIndex = 2;
@@ -93,7 +94,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.MiddletextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MiddletextBox.Location = new System.Drawing.Point(288, 156);
-            this.MiddletextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MiddletextBox.Margin = new System.Windows.Forms.Padding(4);
             this.MiddletextBox.Name = "MiddletextBox";
             this.MiddletextBox.Size = new System.Drawing.Size(148, 22);
             this.MiddletextBox.TabIndex = 3;
@@ -113,7 +114,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.LasttextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LasttextBox.Location = new System.Drawing.Point(288, 217);
-            this.LasttextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LasttextBox.Margin = new System.Windows.Forms.Padding(4);
             this.LasttextBox.Name = "LasttextBox";
             this.LasttextBox.Size = new System.Drawing.Size(148, 22);
             this.LasttextBox.TabIndex = 4;
@@ -122,7 +123,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.Sendbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sendbutton.Location = new System.Drawing.Point(326, 271);
-            this.Sendbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Sendbutton.Margin = new System.Windows.Forms.Padding(4);
             this.Sendbutton.Name = "Sendbutton";
             this.Sendbutton.Size = new System.Drawing.Size(112, 28);
             this.Sendbutton.TabIndex = 6;
@@ -134,7 +135,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.Radiobutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Radiobutton.Location = new System.Drawing.Point(22, 271);
-            this.Radiobutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Radiobutton.Margin = new System.Windows.Forms.Padding(4);
             this.Radiobutton.Name = "Radiobutton";
             this.Radiobutton.Size = new System.Drawing.Size(228, 28);
             this.Radiobutton.TabIndex = 7;
@@ -147,7 +148,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.RedradioButton.AutoSize = true;
             this.RedradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RedradioButton.Location = new System.Drawing.Point(456, 107);
-            this.RedradioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RedradioButton.Margin = new System.Windows.Forms.Padding(4);
             this.RedradioButton.Name = "RedradioButton";
             this.RedradioButton.Size = new System.Drawing.Size(55, 20);
             this.RedradioButton.TabIndex = 8;
@@ -160,7 +161,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.GreenradioButton.AutoSize = true;
             this.GreenradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GreenradioButton.Location = new System.Drawing.Point(456, 155);
-            this.GreenradioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GreenradioButton.Margin = new System.Windows.Forms.Padding(4);
             this.GreenradioButton.Name = "GreenradioButton";
             this.GreenradioButton.Size = new System.Drawing.Size(68, 20);
             this.GreenradioButton.TabIndex = 8;
@@ -173,7 +174,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.BlueradioButton.AutoSize = true;
             this.BlueradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BlueradioButton.Location = new System.Drawing.Point(456, 212);
-            this.BlueradioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BlueradioButton.Margin = new System.Windows.Forms.Padding(4);
             this.BlueradioButton.Name = "BlueradioButton";
             this.BlueradioButton.Size = new System.Drawing.Size(57, 20);
             this.BlueradioButton.TabIndex = 8;
@@ -186,7 +187,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.YellowradioButton.AutoSize = true;
             this.YellowradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YellowradioButton.Location = new System.Drawing.Point(450, 271);
-            this.YellowradioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.YellowradioButton.Margin = new System.Windows.Forms.Padding(4);
             this.YellowradioButton.Name = "YellowradioButton";
             this.YellowradioButton.Size = new System.Drawing.Size(72, 20);
             this.YellowradioButton.TabIndex = 8;
@@ -199,7 +200,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.OrangeradioButton.AutoSize = true;
             this.OrangeradioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OrangeradioButton.Location = new System.Drawing.Point(450, 320);
-            this.OrangeradioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrangeradioButton.Margin = new System.Windows.Forms.Padding(4);
             this.OrangeradioButton.Name = "OrangeradioButton";
             this.OrangeradioButton.Size = new System.Drawing.Size(77, 20);
             this.OrangeradioButton.TabIndex = 8;
@@ -211,7 +212,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // 
             this.ChangeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangeBtn.Location = new System.Drawing.Point(68, 377);
-            this.ChangeBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ChangeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ChangeBtn.Name = "ChangeBtn";
             this.ChangeBtn.Size = new System.Drawing.Size(474, 46);
             this.ChangeBtn.TabIndex = 9;
@@ -222,7 +223,7 @@ namespace Passing_value_from_oneFromsTo_Another
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(597, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 28);
             this.button1.TabIndex = 10;
@@ -230,11 +231,22 @@ namespace Passing_value_from_oneFromsTo_Another
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Checklistbtn
+            // 
+            this.Checklistbtn.Location = new System.Drawing.Point(597, 73);
+            this.Checklistbtn.Name = "Checklistbtn";
+            this.Checklistbtn.Size = new System.Drawing.Size(151, 23);
+            this.Checklistbtn.TabIndex = 11;
+            this.Checklistbtn.Text = "Go to check list";
+            this.Checklistbtn.UseVisualStyleBackColor = true;
+            this.Checklistbtn.Click += new System.EventHandler(this.Checklistbtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(854, 455);
+            this.Controls.Add(this.Checklistbtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ChangeBtn);
             this.Controls.Add(this.OrangeradioButton);
@@ -252,7 +264,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Go to CheckBox";
@@ -279,6 +291,7 @@ namespace Passing_value_from_oneFromsTo_Another
         private System.Windows.Forms.RadioButton OrangeradioButton;
         private System.Windows.Forms.Button ChangeBtn;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Checklistbtn;
     }
 }
 
