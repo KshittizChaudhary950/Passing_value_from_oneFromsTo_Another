@@ -59,5 +59,18 @@ namespace Passing_value_from_oneFromsTo_Another
                 MessageBox.Show("Please enter the items which u want to add");
             }
         }
+
+        private void Deletebtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                checkedListBox1.Items.RemoveAt(checkedListBox1.SelectedIndex);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please select items first to do operations");
+            }
+          
+        }
     }
 }

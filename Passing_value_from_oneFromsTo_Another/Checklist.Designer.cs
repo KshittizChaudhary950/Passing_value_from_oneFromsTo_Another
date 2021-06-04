@@ -41,6 +41,7 @@ namespace Passing_value_from_oneFromsTo_Another
             this.Updatebtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Deletebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -103,8 +104,8 @@ namespace Passing_value_from_oneFromsTo_Another
             this.getbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getbtn.Location = new System.Drawing.Point(43, 438);
             this.getbtn.Name = "getbtn";
-            this.getbtn.Size = new System.Drawing.Size(181, 23);
-            this.getbtn.TabIndex = 6;
+            this.getbtn.Size = new System.Drawing.Size(181, 35);
+            this.getbtn.TabIndex = 3;
             this.getbtn.Text = "Get Items ";
             this.getbtn.UseVisualStyleBackColor = true;
             this.getbtn.Click += new System.EventHandler(this.getbtn_Click);
@@ -114,8 +115,8 @@ namespace Passing_value_from_oneFromsTo_Another
             this.Indexbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Indexbtn.Location = new System.Drawing.Point(291, 438);
             this.Indexbtn.Name = "Indexbtn";
-            this.Indexbtn.Size = new System.Drawing.Size(181, 23);
-            this.Indexbtn.TabIndex = 6;
+            this.Indexbtn.Size = new System.Drawing.Size(181, 35);
+            this.Indexbtn.TabIndex = 4;
             this.Indexbtn.Text = "Get Items  Index";
             this.Indexbtn.UseVisualStyleBackColor = true;
             this.Indexbtn.Click += new System.EventHandler(this.Indexbtn_Click);
@@ -145,8 +146,8 @@ namespace Passing_value_from_oneFromsTo_Another
             this.Updatebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Updatebtn.Location = new System.Drawing.Point(347, 113);
             this.Updatebtn.Name = "Updatebtn";
-            this.Updatebtn.Size = new System.Drawing.Size(75, 23);
-            this.Updatebtn.TabIndex = 8;
+            this.Updatebtn.Size = new System.Drawing.Size(75, 27);
+            this.Updatebtn.TabIndex = 2;
             this.Updatebtn.Text = "Update";
             this.Updatebtn.UseVisualStyleBackColor = true;
             this.Updatebtn.Click += new System.EventHandler(this.Updatebtn_Click);
@@ -167,13 +168,25 @@ namespace Passing_value_from_oneFromsTo_Another
             this.textBox1.Location = new System.Drawing.Point(347, 70);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(123, 22);
-            this.textBox1.TabIndex = 10;
+            this.textBox1.TabIndex = 1;
+            // 
+            // Deletebtn
+            // 
+            this.Deletebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Deletebtn.Location = new System.Drawing.Point(347, 157);
+            this.Deletebtn.Name = "Deletebtn";
+            this.Deletebtn.Size = new System.Drawing.Size(75, 30);
+            this.Deletebtn.TabIndex = 11;
+            this.Deletebtn.Text = "Delete";
+            this.Deletebtn.UseVisualStyleBackColor = true;
+            this.Deletebtn.Click += new System.EventHandler(this.Deletebtn_Click);
             // 
             // Checklist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 485);
+            this.Controls.Add(this.Deletebtn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.Updatebtn);
@@ -208,5 +221,6 @@ namespace Passing_value_from_oneFromsTo_Another
         private System.Windows.Forms.Button Updatebtn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Deletebtn;
     }
 }
